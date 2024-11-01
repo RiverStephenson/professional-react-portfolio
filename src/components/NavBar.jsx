@@ -1,9 +1,10 @@
 import Nav from "react-bootstrap/Nav";
 
+
 function NavBar({ currentPage, handlePageChange }) {
   return (
     <>
-    <section id='aboutPic' ></section>
+  
       <div id='header'>
         <h1>River Stephenson</h1>
         <Nav id="nav" variant="tabs" defaultActiveKey="/AboutMe">

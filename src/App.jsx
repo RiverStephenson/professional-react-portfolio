@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar";
+
 import "./App.css";
 import PortfolioContainer from "./components/PortfolioContainer";
 import Footer from "./components/Footer";

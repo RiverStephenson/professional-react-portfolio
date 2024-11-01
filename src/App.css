@@ -5,24 +5,25 @@
   text-align: center;
 }
 .nav-link {
-  color: red;
+  color: white;
 
 }
 .nav-link.active {
-  color: blue;
+  color: rgb(14, 14, 77);
   
 }
  #nav {
-  display: flexbox;
+  display: flex;
   align-self: center;
+  justify-content: space-between;
  }
 h1 { 
   border-style: ridge;
-  border-color: rgb(6, 14, 54);
+  border-color: silver;
   border-width: 50px;
   padding-bottom: 10px;
   display: flex;
-  flex-direction: column;
+  color: rgb(14, 14, 77);
   
 }
 .section {
@@ -30,11 +31,34 @@ h1 {
 
 }
 #header {
-  display: inline-flex;
+  display: inline-block;
   position: top;
   margin-top: 0;
 }
-#aboutPic {
-  background-image: url(url../../../../../OneDrive/Pictures/aboutmepic.jpg);
-  margin-bottom:;
+#secCard {
+  background-color: gray;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  max-width: 800px;
+}
+#projCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.twoCard {
+  display: inline-flex;
+}
+.cardP {
+  margin: 20px;
+  border-color: rgb(6, 14, 54);
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 15px 15px;
+}
+#me {
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+}
+#aboutCard {
+
 }
