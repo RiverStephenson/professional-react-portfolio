@@ -6,72 +6,60 @@ function PortfolioProjects() {
       <div id="projCards">
         <div className="twoCard">
           <Card className='cardP'>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img class='portfolioPics' variant="top" src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Placeholder Project</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+               This will be a short description of any projects I feel confident enough to display along with a link to the deployed website and GitHub repository. Currently there are none.
               </Card.Text>
             </Card.Body>
           </Card>
           <Card className='cardP'>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img class='portfolioPics' variant="top" src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Placeholder Project</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+               This will be a short description of any projects I feel confident enough to display along with a link to the deployed website and GitHub repository. Currently there are none.
               </Card.Text>
             </Card.Body>
           </Card>
         </div>
         <div className="twoCard">
           <Card className='cardP'>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img class='portfolioPics' variant="top" src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Placeholder Project</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+               This will be a short description of any projects I feel confident enough to display along with a link to the deployed website and GitHub repository. Currently there are none.
               </Card.Text>
             </Card.Body>
           </Card>
           <Card className='cardP'>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img class='portfolioPics' variant="top" src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Placeholder Project</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                This will be a short description of any projects I feel confident enough to display along with a link to the deployed website and GitHub repository. Currently there are none.
               </Card.Text>
             </Card.Body>
           </Card>
         </div>
         <div className="twoCard">
           <Card className='cardP'>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img class='portfolioPics' variant="top" src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Placeholder Project</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+               This will be a short description of any projects I feel confident enough to display along with a link to the deployed website and GitHub repository. Currently there are none.
               </Card.Text>
             </Card.Body>
           </Card>
           <Card className='cardP'>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img class='portfolioPics' variant="top" src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Placeholder Project</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+               This will be a short description of any projects I feel confident enough to display along with a link to the deployed website and GitHub repository. Currently there are none.
               </Card.Text>
             </Card.Body>
           </Card>
