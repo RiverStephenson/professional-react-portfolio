@@ -22,47 +22,101 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+.nav-link {
+  color: white;
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+}
+.nav-link.active {
+  color: gray;
+  
+}
+ #nav {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+ }
+h1 { 
+  border-style: ridge;
+  border-color: silver;
+  border-width: 50px;
+  padding-bottom: 10px;
+  display: flex;
+  color: rgb(14, 14, 77);
+  
+}
+.section {
+ display: inline-block;
+
+}
+#header {
+  display: inline-block;
+  position: top;
+  margin-top: 0;
+}
+#secCard {
+  background-color: gray;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  max-width: 800px;
+}
+#projCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.twoCard {
+  display: inline-flex;
+}
+.cardP {
+  margin: 20px;
+  border-color: rgb(6, 14, 54);
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 15px 15px;
+}
+#me {
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+}
+.portfolioPics {
+max-height: 400px;
+
+}
+.formInput {
+ margin-bottom: 15px;
+ color: silver;
+  background-color: rgb(6, 14, 54);
+  
+}
+#emailInput {
+  margin-right: 30px;
+}
+#submit {
+  color: silver;
+  background-color: rgb(6, 14, 54);
+}
+@media screen and (max-width: 998px) {
+  .portfolioPics {
+    width: 100%;
   }
-  a:hover {
-    color: #747bff;
+}
+@media screen and (max-width: 768px) {
+  .portfolioPics {
+    width: 100%;
   }
-  button {
-    background-color: #f9f9f9;
+}
+@media screen and (max-width: 768px) {
+   #me {
+    width: 100%;
   }
 }
