@@ -4,9 +4,14 @@ import { useState } from "react";
 
 function ContactForm() {
   const [inputValue, setInputValue] = useState("");
+  const [passwordValue, setPasswordValue] = useState("");
+  const [messageValue, setMessageValue] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    setInputValue('');
+    setPasswordValue('');
+    setMessageValue('');
     // keeps page from reloading
     if (inputValue) {
       alert(`Submitted: ${inputValue}`);
@@ -16,22 +21,22 @@ function ContactForm() {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form id='form' onSubmit={handleSubmit}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address: </Form.Label>
-        <Form.Control type="email" value={inputValue} onChange={(e) => setInputValue(e.target.value)} placeholder="Enter email" />
+        <Form.Control id='emailInput' className='formInput' type="email" value={inputValue} onChange={(e) => setInputValue(e.target.value)} placeholder="Enter email" />
         <Form.Text className="text-muted"></Form.Text>
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Password: </Form.Label>
-        <Form.Control type="password" value={inputValue} onChange={(e) => setInputValue(e.target.value)} placeholder="Password" />
+        <Form.Label id='passwordText'>Name: </Form.Label>
+        <Form.Control className='formInput' type="text" value={passwordValue} onChange={(e) => setPasswordValue(e.target.value)} placeholder="First and Last" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Message: </Form.Label>
-        <Form.Control as="textarea" rows={3} />
+        <Form.Label id='messageText'>Message: </Form.Label>
+        <Form.Control onChange={(e) => setMessageValue(e.target.value)} value={messageValue} className='formInput' as="textarea" rows={3} />
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button id='submit' variant="primary" type="submit">
         Submit
       </Button>
     </Form>

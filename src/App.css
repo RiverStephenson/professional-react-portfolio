@@ -9,7 +9,7 @@
 
 }
 .nav-link.active {
-  color: rgb(14, 14, 77);
+  color: gray;
   
 }
  #nav {
@@ -62,4 +62,32 @@ h1 {
 .portfolioPics {
 max-height: 400px;
 
+}
+.formInput {
+ margin-bottom: 15px;
+ color: silver;
+  background-color: rgb(6, 14, 54);
+  
+}
+#emailInput {
+  margin-right: 30px;
+}
+#submit {
+  color: silver;
+  background-color: rgb(6, 14, 54);
+}
+@media screen and (max-width: 998px) {
+  .portfolioPics {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolioPics {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+   #me {
+    width: 100%;
+  }
 }
